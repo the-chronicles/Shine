@@ -28,18 +28,22 @@ function Logo() {
 
 function NavLinks() {
   return (
-    <div className="nav-link">
-      <ul className="nav-menu">
-        <li className="nav-item">
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">Service</a>
-        </li>
-        <li>
-          <a href="#">Bookings</a>
-        </li>
-      </ul>
-    </div>
+    <ul className="nav-menu">
+      <li className="nav-item">
+        <a href="#" className="nav-link">
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="#" className="nav-link">
+          Service
+        </a>
+      </li>
+      <li>
+        <a href="#" className="nav-link">
+          Bookings
+        </a>
+      </li>
+    </ul>
   );
 }
